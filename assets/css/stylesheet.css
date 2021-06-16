@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
 body, html {
   margin: 0;
   padding: 0;
@@ -5,6 +6,10 @@ body, html {
 
 body {
   width: 100%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
 }
 
 .container {
@@ -24,9 +29,21 @@ body {
 .navbar__logo {
   width: 50px;
   height: 50px;
+  margin: 0 10px;
+}
+.navbar__logo:active {
+  opacity: 70%;
 }
 .navbar__collapse-icon {
-  margin: 0;
+  margin: 0 10px;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+.navbar__collapse-icon:hover {
+  color: #FFAF6D;
+}
+.navbar__collapse-icon:active {
+  opacity: 70%;
 }
 
 .card-group {
@@ -106,8 +123,19 @@ body {
 .footer__legal {
   margin: 0;
 }
+.footer__input {
+  border-radius: 5px;
+  height: 25px;
+}
 .footer__submit {
   margin: 4px 0;
+  border-color: #fff;
+  border-radius: 5px;
+  background-color: #FFA500;
+  height: 25px;
+}
+.footer__submit:active {
+  opacity: 70%;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
