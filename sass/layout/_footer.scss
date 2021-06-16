@@ -1,0 +1,16 @@
+.footer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    &__copyright {
+        text-align: center;
+    }
+    &__legal {
+        margin: 0;
+    }
+    &__submit {
+        margin: 4px 0;
+    }
+}

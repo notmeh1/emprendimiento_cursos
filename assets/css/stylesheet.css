@@ -29,4 +29,85 @@ body {
   margin: 0;
 }
 
+.card-group {
+  border: 2px solid #000;
+  margin: 20px 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px dotted #808080;
+  margin: 25px 15px;
+}
+.card__img {
+  margin: 10px 0;
+}
+.card__title {
+  margin: 0;
+}
+.card__title2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.card__stats {
+  margin-bottom: 10px;
+}
+.card__stats > * {
+  margin: 0 5px;
+}
+
+.card > * {
+  width: 95%;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px 0;
+}
+.card-2__title, .card-2__socials, .card-2__list-title {
+  text-align: center;
+}
+.card-2__img {
+  border: 1.5px solid #000;
+  border-radius: 140px;
+}
+.card-2__socials > * {
+  margin: 0 5px;
+}
+.card-2__list-title {
+  background-color: #505050;
+  color: #fff;
+}
+.card-2__list {
+  margin: 0;
+}
+.card-2__list li a {
+  text-decoration: none;
+}
+
+.card-2 > * {
+  width: 85%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+.footer__copyright {
+  text-align: center;
+}
+.footer__legal {
+  margin: 0;
+}
+.footer__submit {
+  margin: 4px 0;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
