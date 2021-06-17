@@ -1,0 +1,10 @@
+@media (min-width:768px) {
+    .navbar {
+        &__list {
+            display: flex;
+        }
+        &__collapse-icon {
+            display: none;
+        }
+    }
+}

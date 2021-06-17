@@ -14,6 +14,25 @@
     &__logo:active {
         opacity: 70%;
     }
+    &__list {
+        display: none;
+        margin-left: auto;
+        margin-right: 10px;
+        & li {
+            list-style-type: none;
+            margin: 0 5px;
+        }
+        & li a {
+            text-decoration: none;
+            color: #fff;
+        }
+        & li a:hover {
+            color: #FFAF6D;
+        }
+        & li a:active {
+            opacity: 70%;
+        }
+    }
     &__collapse-icon {
         margin: 0 10px;
         transition: color 0.5s;
