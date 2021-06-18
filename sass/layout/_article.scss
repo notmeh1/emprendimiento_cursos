@@ -78,17 +78,17 @@
     width: 85%;
 }
 
-.gear {
+.gear, .gear_inside {
     display: inline-block;
-    animation: rotating 2s linear infinite;
-    transform-origin: 75% 50%;
+    animation: rotation 2s linear infinite;
+    transform-origin: 25rem 25.4rem;
 }
-@keyframes rotating {
+@keyframes rotation {
     0% {
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(359deg);
     }
 }
 
