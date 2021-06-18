@@ -171,9 +171,8 @@ body {
   }
 }
 .gear, .gear_inside {
-  display: inline-block;
   animation: rotation 2s linear infinite;
-  transform-origin: 25rem 25.4rem;
+  transform-origin: 25rem 25.5rem;
 }
 
 @keyframes rotation {
