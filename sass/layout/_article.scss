@@ -78,6 +78,21 @@
     width: 85%;
 }
 
+.xml-1, .xml-2, .xml-3 {
+    animation: toright 2s ease-in-out infinite;
+}
+@keyframes toright {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(45px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
 .gear, .gear_inside {
     display: inline-block;
     animation: rotation 2s linear infinite;
