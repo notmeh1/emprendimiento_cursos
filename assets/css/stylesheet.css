@@ -146,11 +146,29 @@ body {
 .card-2__list li a {
   text-decoration: none;
 }
+.card-2__svg {
+  width: 300px;
+  height: 300px;
+}
 
 .card-2 > * {
   width: 85%;
 }
 
+.gear {
+  display: inline-block;
+  animation: rotating 2s linear infinite;
+  transform-origin: 75% 50%;
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .footer {
   display: flex;
   flex-direction: column;
